@@ -4,7 +4,7 @@ import {Link as LinkR } from 'react-router-dom';
 
 
 export const Nav = styled.nav`
-    background: #000;
+    background: white;
     height: 80px;
     display: flex;
     justify-content; center;
@@ -37,7 +37,7 @@ max-width: 1100px;;
     }`
 
 export const NavLogo = styled(LinkR)`
-color: white;
+color: black;
 justify-self: flex-start;
 cursor: pointer;
 font-size: 1.5rem;
@@ -50,11 +50,13 @@ text-decoration: none;
 &:hover {
     bottom-margin: 3px #74FF33;
     color: #74FF33;
+    background-color: rgba(173, 173, 173, .08);
 }
 `;
 
 export const MobileIcon = styled.a`
 display: none;
+
 
 @media screen and (max-width: 300px) {
     display: block;
@@ -72,23 +74,18 @@ display: flex;
 align-items: right;
 list-style: none;
 text-decoration: none;
-color: white;
-
-
 
 @media screen and (max-width: 768px) {
     display: none; 
     text-align: left;
-
 }`;
 
 export const NavItem = styled.li`
 height: 80px;
-
 `;
 
 export const NavLinks = styled.a`
-color: #fff;
+color: black;
 display: flex;
 align-items: center;
 text-decoration: none;
@@ -96,8 +93,10 @@ padding: 0 1rem;
 height: 100%;
 cursor: pointer;
 
+
 &:hover {
     bottom-margin: 3px #74FF33;
     color: #74FF33;
+    background-color: rgba(173, 173, 173, .08)
 }
 `;
