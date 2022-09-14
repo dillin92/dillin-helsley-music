@@ -18,7 +18,7 @@ const Navbar = () => {
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>
-                        <NavLinks href="#portfolio">Videos</NavLinks>
+                        <NavLinks href="#videos">Videos</NavLinks>
                     </NavItem>
 
                     <NavItem>
