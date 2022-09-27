@@ -7,5 +7,6 @@ export const HeroDiv = styled.div`
 `
 
 export const HeroImageEl = styled.img`
-
+ height: 400px;
+ width: 400px;
 `
