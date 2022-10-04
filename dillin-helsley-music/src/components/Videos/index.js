@@ -1,23 +1,17 @@
-import React from "react";
-import PropTypes from "prop-types";
+ 
 
-const YoutubeEmbed = ({ embedId }) => (
-  <div className="video-responsive">
-    <iframe
-      width="853"
-      height="480"
-      src={`https://www.youtube.com/embed/BqmT8QS6qFU`}
-      frameBorder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-      title="Embedded youtube"
-    />
-  </div>
-);
 
-YoutubeEmbed.propTypes = {
-  embedId: PropTypes.string.isRequired
-};
+const Videos = () => {
+  return(
+    <div href="videos">
+      <h1>Hip-Hip</h1>
+        <h2>Lose Self Deep</h2>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/BqmT8QS6qFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-export default YoutubeEmbed;
+        <h2>Introducing Doc D</h2>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/04Z7edkN-ck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    )
+}
 
+export default Videos
