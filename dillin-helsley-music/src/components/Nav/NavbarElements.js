@@ -4,7 +4,7 @@ import {Link as LinkR } from 'react-router-dom';
 
 
 export const Nav = styled.nav`
-    background: white;
+    background: #C63BCC;
     height: 80px;
     display: flex;
     justify-content; center;
@@ -49,7 +49,7 @@ text-decoration: none;
 
 &:hover {
     bottom-margin: 3px #74FF33;
-    color: #74FF33;
+    color: gold;
     background-color: rgba(173, 173, 173, .08);
 }
 `;
@@ -96,7 +96,7 @@ cursor: pointer;
 
 &:hover {
     bottom-margin: 3px #74FF33;
-    color: #74FF33;
+    color: gold;
     background-color: rgba(173, 173, 173, .08)
 }
 `;
