@@ -7,7 +7,7 @@ function Hero() {
         <>
         <HeroDiv>
             <HeroImageEl src={HeroImage} alt="lose self deep in time, it's a must"/>
-            <H1> Lose Self Deep Available Now!!!!</H1>
+            <H1> Lose Self Deep Available Now!!!</H1>
          </HeroDiv>   
         
             
