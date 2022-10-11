@@ -25,6 +25,10 @@ const Navbar = () => {
                     <NavItem>
                         <NavLinks href="#contact">Contact</NavLinks>
                     </NavItem>
+
+                    <NavItem>
+                        <NavLinks href="#events">Events</NavLinks>
+                    </NavItem>
                     
                 </NavMenu>
             </NavbarContainer>

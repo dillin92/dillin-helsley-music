@@ -11,9 +11,13 @@ font-size: 1rem;
 postition: sticky;
 top: 0;
 z-index: 10;
-color: white;
+color: gold;
 text-align: center;`
 
 export const VideoSection = styled.section`
 display: flex;`
+
+export const H1 = styled.h1`
+color: gold;
+margin: 125px;`
 
